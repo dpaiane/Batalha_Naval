@@ -1,0 +1,49 @@
+h1{
+    color: whitesmoke;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Rye', serif; 
+}
+.cenario{
+    background-color: black;
+    width: 366px;
+    height: 366px;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: inline-block;
+}
+img{
+    width: 70px; 
+    height: 70px;
+}
+button{
+   width: 80px; 
+   height: 40px;
+   padding: 5px;
+   margin: 5px;
+   border-bottom: 50px;
+   border-radius: 100px;
+   background-color: darkslategray;
+}
+
+.Municao{
+    text-align: center;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Rye', serif; 
+    width: 120px;
+    height: 400px;
+    background-color: rgba(81, 81, 209, 0.3);
+    display: inline-block;
+    border-radius: 1rem;
+    position: absolute;
+}
+
+#Pontos{
+    text-align: center;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Rye', serif; 
+}
+#Tiros{
+    text-align: center;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Rye', serif; 
+}

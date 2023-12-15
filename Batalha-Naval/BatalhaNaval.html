@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOGO</title>
+</head>
+    <link rel="stylesheet" href="src/BatalhaNaval.css">
+	<script src="src/BatalhaNaval.js"> </script>
+    <h1>Jogo de batalha naval 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Rye&display=swap" rel="stylesheet">
+    </h1>
+<body background="src/img/Navios_Mar.jpg">
+<div class="cenario">
+        <tr>
+            <td><img id="quadro00" src="src/img/agua.jpg" onclick="revelar00();"></td>
+            <td><img id="quadro01" src="src/img/agua.jpg" onclick="revelar01();"></td>
+            <td><img id="quadro02" src="src/img/agua.jpg" onclick="revelar02();"></td>
+            <td><img id="quadro03" src="src/img/agua.jpg" onclick="revelar03();"></td>
+            <td><img id="quadro04" src="src/img/agua.jpg" onclick="revelar04();"></td>
+        </tr>
+        <tr>
+            <td><img  id="quadro10" src="src/img/agua.jpg" onclick="revelar10();"></td>
+            <td><img  id="quadro11" src="src/img/agua.jpg" onclick="revelar11();"></td>
+            <td><img  id="quadro12" src="src/img/agua.jpg" onclick="revelar12();"></td>
+            <td><img  id="quadro13" src="src/img/agua.jpg" onclick="revelar13();"></td>
+            <td><img  id="quadro14" src="src/img/agua.jpg" onclick="revelar14();"></td>
+        </tr>
+        <tr>
+            <td><img id="quadro20" src="src/img/agua.jpg" onclick="revelar20();"></td>
+            <td><img id="quadro21" src="src/img/agua.jpg" onclick="revelar21();"></td>
+            <td><img id="quadro22" src="src/img/agua.jpg" onclick="revelar22();"></td>
+            <td><img id="quadro23" src="src/img/agua.jpg" onclick="revelar23();"></td>
+            <td><img id="quadro24" src="src/img/agua.jpg" onclick="revelar24();"></td>
+        </tr>
+        <tr>
+            <td><img id="quadro30" src="src/img/agua.jpg" onclick="revelar30();"></td>
+            <td><img id="quadro31" src="src/img/agua.jpg" onclick="revelar31();"></td>
+            <td><img id="quadro32" src="src/img/agua.jpg" onclick="revelar32();"></td>
+            <td><img id="quadro33" src="src/img/agua.jpg" onclick="revelar33();"></td>
+            <td><img id="quadro34" src="src/img/agua.jpg" onclick="revelar34();"></td>
+        </tr>
+        <tr>
+            <td><img id="quadro40" src="src/img/agua.jpg" onclick="revelar40();"></td>
+            <td><img id="quadro41" src="src/img/agua.jpg" onclick="revelar41();"></td>
+            <td><img id="quadro42" src="src/img/agua.jpg" onclick="revelar42();"></td>
+            <td><img id="quadro43" src="src/img/agua.jpg" onclick="revelar43();"></td>
+            <td><img id="quadro44" src="src/img/agua.jpg" onclick="revelar44();"></td>
+        </tr>
+    </table> 
+</div>
+<div class="Municao">
+    <h2>Tiros</h2>
+    <h1 id="Tiros"></h1>
+    <h2>Pontos</h2>
+    <h1 id="Pontos"></h1>
+    <button onclick="Dificil();" class="btn-reiniciar">Modo Facil</button>
+	<button onclick="Facil();" class="btn-mostrar">Modo Dificil</button>
+    <button onclick="PosicionaBarcos();" class="btn-table">Posicionar</button>
+</body>
+</html>
